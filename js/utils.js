@@ -4,7 +4,7 @@
 //                     .then((json_res) => json = json_res)
 // })();
 async function readJson() {
-    const response = await fetch('./../platos.json')
+    const response = await fetch('./platos.json')
         // .then((response) => response.json())
     return response.json();
 }
